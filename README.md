@@ -351,6 +351,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     $ conan create . -pr:h conan-profiles/x86_64-w64-mingw32 --build=missing
     ```
 
+Если все прошло успешно, можно скопировать полученный `derive_key.exe` на
+машину Windows и запустить из терминала (не обязательное требованиe).
+
 ### 8. Проверка
 
 Выполните скрипт `./check.sh` в сборочном окружении для проверки, что все было
